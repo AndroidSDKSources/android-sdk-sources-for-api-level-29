@@ -57,7 +57,7 @@ class SysUiOverlay extends View {
 
 
     private static float dpToPx(DisplayMetrics metrics, float value) {
-        return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_PX, value, metrics);
+        return TypedValue.applyDimension(TypedValue.COMPLEX_UNIT_DIP, value, metrics);
     }
 
 
